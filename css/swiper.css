@@ -1,0 +1,106 @@
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  background-size: contain;
+  position: relative;
+  font-size: 60px;
+}
+
+.modelinner {
+  position: absolute;
+  font-size: 30px;
+  width: 40%;
+  color: #ffcd58;
+  text-align: left;
+  top: 18%;
+  left: 36%;
+  transform: translate(-50%, 0);
+}
+
+.modeldesc {
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 36%;
+  transform: translate(-50%, 0);
+}
+
+.model-chac {
+  position: absolute;
+  width: 40%;
+  top: 0%;
+  left: 85%;
+  transform: translate(-50%, 0);
+}
+
+.swiper-slide .super {
+  left: 73%;
+  top: 5%;
+}
+
+.swiper-button-prev {
+  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/left-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px !important;
+  color: #92bde7 !important;
+  background-color: transparent !important;
+  margin-top: -30%;
+}
+
+.swiper-button-next {
+  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/right-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px !important;
+  color: #92bde7 !important;
+  background-color: transparent !important;
+  border: none !important;
+  margin-top: -30%;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: none !important;
+  font-size: 0px !important;
+  text-transform: none !important;
+}
+
+.swiper-pagination-bullet {
+  width: 35px !important;
+  height: 35px !important;
+  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/bullet.png");
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  color: #72204d !important;
+  background-color: transparent;
+  border: none !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 35px !important;
+  height: 35px !important;
+  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/bullet-active.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  color: transparent !important;
+  border: none !important;
+  background-color: transparent !important;
+  /* color: #72204d !important; */
+}
+
+.sec-right {
+  width: 30px;
+
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  transform: translate(-50%, 0);
+}

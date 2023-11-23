@@ -1,0 +1,44 @@
+.bg-transparent{
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+.bg-darkk-mod{
+    /* background-color: black !important; */
+    margin-top: 0%; 
+    z-index: 9999;
+}
+
+.bg-universe{
+    width: 100%;
+}
+
+.navbar{
+    z-index: 99999;
+}
+
+.navbar-brand{
+    margin-left: -50px !important;
+}
+
+
+
+
+/* MEDIUM DEVICE */
+
+@media (max-width:961px)  { 
+  
+}
+
+
+/* IPAD, TABLETS */
+
+@media (max-width:641px)  { 
+
+}
+
+
+/* MOBILE DEVICE */
+
+@media (max-width: 450px) {
+
+  }

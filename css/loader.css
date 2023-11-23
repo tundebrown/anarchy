@@ -1,0 +1,50 @@
+.loaderr {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+  }
+  
+  .load-content {
+    width: 80px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .progress {
+    height: 4px !important;
+  }
+
+  .progress-bar{
+    background-color: #8f00ff;
+  }
+
+
+
+/* MEDIUM DEVICE */
+
+@media (max-width:961px)  { 
+  
+}
+
+
+/* IPAD, TABLETS */
+
+@media (max-width:641px)  { 
+
+}
+
+
+
+  /* MOBILE DEVICE */
+
+@media (max-width: 450px) {
+
+}

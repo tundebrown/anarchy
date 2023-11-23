@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500&display=swap");
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: linear-gradient(
+            rgba(34, 41, 65, 0.45),
+            rgba(46, 55, 86, 0.45)
+          ),
+          url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/body_bg.webp");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .hero-head header {
+        height: 75px;
+      }
+      .hero-head header .navbar-item img {
+        height: 75px;
+        max-height: none;
+      }
+      .hero-head header .navbar-item .is-primary {
+        border-color: white !important;
+        color: white !important;
+      }
+      .hero-head header .navbar-item .is-primary:hover {
+        background: rgba(0, 0, 0, 0) !important;
+        border-color: white !important;
+        color: white !important;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .navbar-item:hover {
+        background-color: transparent !important;
+      }
+
+      .hero-body .title {
+        font-family: "Oxanium", cursive;
+        font-weight: 300 !important;
+        font-size: 4rem !important;
+        letter-spacing: 15px;
+        color: #ffffff !important;
+        animation: heading-glow 1.5s ease-in-out infinite alternate;
+      }
+
+      @keyframes heading-glow {
+        from {
+          text-shadow: 0 0 5px rgb(149, 0, 149), 0 0 8px rgb(149, 0, 149),
+            0 0 40px rgb(149, 0, 149);
+        }
+        to {
+          text-shadow: 0 0 5px rgb(149, 0, 149), 0 0 8px rgb(149, 0, 149),
+            0 0 40px rgb(149, 0, 149);
+        }
+      }
+      .hero-body .subtitle .countdown {
+        color: #ffffff;
+        font-family: "Oxanium", cursive;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding-top: 15px;
+        letter-spacing: 2px;
+        font-size: 2.5rem;
+      }
+
+      .hero-foot {
+        font-family: "Oxanium", cursive;
+        font-weight: 600;
+        margin-bottom: 5%;
+      }
+      .hero-foot ul li {
+        display: inline;
+        padding: 25px;
+      }
+      .hero-foot a {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+      }
+
+      .hero-foot a:hover {
+        color: rgb(255, 0, 255);
+      }
+
+      /* -------------------- */
+      /* -- Animations CSS -- */
+      /* -------------------- */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          opacity: 1\9;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .fade {
+        opacity: 0;
+        animation: fadeIn ease-in 1;
+        animation-fill-mode: forwards;
+        animation-duration: 1.5s;
+      }
+
+      .fade.fadeOne {
+        animation-delay: 1s;
+      }
+
+      .fade.fadeTwo {
+        animation-delay: 1.5s;
+      }
+
+      .fade.fadeThree {
+        animation-delay: 4.2s;
+      }
+      .fade.fadeThree span {
+        font-size: 0.8rem;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/a9e59ded2f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <a class="" href="" data-ribbon="" title="Fork me on GitHub">.</a>
+
+    <section class="hero is-transparent is-fullheight">
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a href="../" class="navbar-item">
+                <img
+                  src="https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/main_logo.gif"
+                  width=""
+                  alt="Logo"
+                />
+              </a>
+            </div>
+            <!-- <div class="navbar-menu">
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a class="button is-primary is-outlined" href="#">
+                    <span class="icon">
+                      <i class="fa fa-twitter"></i>
+                    </span>
+                    &nbsp;&nbsp;Follow Us
+                  </a>
+                </span>
+              </div>
+            </div> -->
+          </div>
+        </header>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered content">
+          <h1 class="title">
+            <span class="fade fadeOne">COMING</span>
+            <span class="fade fadeTwo">SOON</span>
+          </h1>
+          <h2 class="subtitle">
+            <p id="countdown" class="countdown fade fadeThree"></p>
+          </h2>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="columns has-text-centered">
+          <div class="column">
+            <div class="container">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/anarchy-games/?viewAsMember=true"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/gaming/AnarchyP2E"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UC_Wms1AHYVct6zEYHwNSohA"
+                    target="_blank"
+                    >YouTube</a
+                  >
+                </li>
+                <li>
+                  <a href="https://discord.gg/fnPAqJfn2M" target="_blank"
+                    >Discord</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/game_anarchy.game/"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="https://twitter.com/AnarchyP_E" target="_blank"
+                    >Twitter</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

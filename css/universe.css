@@ -1,0 +1,64 @@
+.universe-discription {
+  width: 100%;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.webgl {
+  max-width: 100%;
+}
+
+.middle-logo {
+  width: 40%;
+  margin-top: 5%;
+}
+
+.middle-gun {
+  width: 20%;
+}
+
+.model_container {
+  position: relative !important;
+}
+
+#ai_bot {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  cursor: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/cursor1.png"),
+    auto;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  border: none !important;
+}
+
+*:focus {
+  outline: 0 none !important;
+}
+
+.mobile-scroll {
+  display: none;
+}
+
+/* MEDIUM DEVICE */
+
+@media (max-width: 961px) {
+}
+
+/* IPAD, TABLETS */
+
+@media (max-width: 641px) {
+}
+
+/* MOBILE DEVICE */
+
+@media (max-width: 450px) {
+}
