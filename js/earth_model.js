@@ -58,22 +58,22 @@ function init() {
 
   const loader = new THREE.TextureLoader();
   const textureSphereBg = loader.load(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/bg3-je3ddz.webp"
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/bg3-je3ddz.webp"
   );
   const texturenucleus = loader.load(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/earth_texture.webp"
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/earth_texture.webp"
   );
   const textureStar = loader.load(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/p1-g3zb2a.png"
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/p1-g3zb2a.png"
   );
   const texture1 = loader.load(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/p2-b3gnym.png"
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/p2-b3gnym.png"
   );
   const texture2 = loader.load(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/p3-ttfn70.png"
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/p3-ttfn70.png"
   );
   const texture4 = loader.load(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/p4-avirap.png"
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/p4-avirap.png"
   );
 
   /*  Nucleus  */

@@ -100,7 +100,7 @@ function drawing(scene) {
   let add;
 
   loadModel(
-    "https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/model/ai.glb",
+    "https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/model/ai.glb",
     39,
     39,
     39,

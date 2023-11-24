@@ -567,7 +567,7 @@
 @media only screen and (min-width: 240px) and (max-width: 767px) {
   /* Styles */
   body {
-    /* background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/body_bg_mobile.webp"); */
+    /* background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/body_bg_mobile.webp"); */
   }
 
   .subheader {
@@ -734,7 +734,7 @@
     top: -10%;
     left: 50%;
     transform: translate(-50%, 0);
-    cursor: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/cursor1.png"),
+    cursor: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/cursor1.png"),
       auto;
     z-index: 99999999;
     height: 50vh;

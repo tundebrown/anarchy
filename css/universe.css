@@ -29,7 +29,7 @@
   top: 2%;
   left: 50%;
   transform: translate(-50%, 0);
-  cursor: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/cursor1.png"),
+  cursor: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/cursor1.png"),
     auto;
   user-drag: none;
   user-select: none;

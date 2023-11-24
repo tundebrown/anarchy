@@ -58,7 +58,7 @@
 }
 
 .roadmap-list li:before {
-  content: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/r-bullet.png");
+  content: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/r-bullet.png");
   position: absolute;
   left: 0;
 }
@@ -75,7 +75,7 @@
 }
 
 .terms-list li:before {
-  content: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/terms-bullets.png");
+  content: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/terms-bullets.png");
   /* content: url("../images/terms-bullet.png"); */
   position: absolute;
   left: -1%;

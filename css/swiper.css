@@ -42,7 +42,7 @@
 }
 
 .swiper-button-prev {
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/left-arrow.png");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/left-arrow.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 40px !important;
@@ -52,7 +52,7 @@
 }
 
 .swiper-button-next {
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/right-arrow.png");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/right-arrow.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 40px !important;
@@ -76,7 +76,7 @@
 .swiper-pagination-bullet {
   width: 35px !important;
   height: 35px !important;
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/bullet.png");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/bullet.png");
   background-repeat: no-repeat !important;
   background-size: contain !important;
   color: #72204d !important;
@@ -87,7 +87,7 @@
 .swiper-pagination-bullet-active {
   width: 35px !important;
   height: 35px !important;
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/bullet-active.png") !important;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/bullet-active.png") !important;
   background-repeat: no-repeat !important;
   background-size: contain !important;
   color: transparent !important;

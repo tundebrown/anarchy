@@ -12,7 +12,7 @@
 
 body {
   overflow-x: hidden;
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/body_bg.webp");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/body_bg.webp");
   background-color: #100014;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -759,7 +759,7 @@ canvas {
   padding: 0;
   margin: 0 auto;
   margin-top: -2%;
-  cursor: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/cursor1.png"),
+  cursor: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/cursor1.png"),
     auto;
   border: none !important;
   background-color: transparent;
@@ -827,7 +827,7 @@ canvas {
 }
 
 .formats {
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/game-mode-one.webp");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/game-mode-one.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -837,7 +837,7 @@ canvas {
 }
 
 .formats2 {
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/game-mode-two.webp");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/game-mode-two.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -877,7 +877,7 @@ canvas {
 }
 
 .formats-content ul li:before {
-  content: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/game-play-bullet.png");
+  content: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/game-play-bullet.png");
   position: absolute;
   left: 0;
 }
@@ -1336,8 +1336,8 @@ hr {
   transform: translate(-50%, 0);
   width: 60%;
   /* height: 60%; */
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/dialogue-bg.webp");
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/dialogue-bg.webp"),
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/dialogue-bg.webp");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/dialogue-bg.webp"),
     linear-gradient(to bottom, #e5f0f7, #bfa7f6);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1446,7 +1446,7 @@ hr {
 }
 
 .career-heading {
-  background-image: url("https://storage.googleapis.com/anarchy-game-anarchy_1141183825/static/images/career_bg.webp");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/bucket1-anarchy.game/static/images/career_bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
